@@ -8,7 +8,7 @@ INSERT INTO Beneficio (ID_Beneficio, Descripcion) VALUES
 
 -- Insertar datos en la tabla Categoria_Turista
 INSERT INTO Categoria_Turista (ID_Categoria, Nombre_Categoria) VALUES
-(1, 'Estándar'),
+(1, 'EstÃ¡ndar'),
 (2, 'VIP'),
 (3, 'Estudiante');
 
@@ -20,14 +20,14 @@ INSERT INTO SE_BENEFICIA_DE (ID_Categoria, ID_Beneficio) VALUES
 
 -- Insertar datos en la tabla Turista
 INSERT INTO Turista (ID_Turista, ID_Categoria, Primer_Nombre, Apellido_Paterno, Apellido_Materno, Contrasenia, Tipo_Documento, Numero_Documento, Fecha_Nacimiento, Correo_Electronico, Telefono) VALUES
-(1, 1, 'Juan', 'Pérez', 'García', 'contraseña123', 'DNI', '12345678', '1990-05-15', 'juan.perez@example.com', '987654321'),
-(2, 2, 'Ana', 'Lopez', 'Martínez', 'contraseña456', 'Pasaporte', 'A98765432', '1985-02-20', 'ana.lopez@example.com', '123456789'),
-(3, 3, 'Carlos', 'Mendoza', 'Fernández', 'contraseña789', 'Cédula', '98765432', '1995-08-30', 'carlos.mendoza@example.com', '555123456');
+(1, 1, 'Juan', 'PÃ©rez', 'GarcÃ­a', 'contraseÃ±a123', 'DNI', '12345678', '1990-05-15', 'juan.perez@example.com', '987654321'),
+(2, 2, 'Ana', 'Lopez', 'MartÃ­nez', 'contraseÃ±a456', 'Pasaporte', 'A98765432', '1985-02-20', 'ana.lopez@example.com', '123456789'),
+(3, 3, 'Carlos', 'Mendoza', 'FernÃ¡ndez', 'contraseÃ±a789', 'CÃ©dula', '98765432', '1995-08-30', 'carlos.mendoza@example.com', '555123456');
 
 -- Insertar datos en la tabla Departamento
 INSERT INTO Departamento (ID_Departamento, Nombre) VALUES
 (1, 'Turismo'),
-(2, 'Logística'),
+(2, 'LogÃ­stica'),
 (3, 'Finanzas');
 
 -- Insertar datos en la tabla Terminal
@@ -50,9 +50,9 @@ INSERT INTO TIENE (ID_Destino_Turistico, ID_Terminal) VALUES
 
 -- Insertar datos en la tabla Bus
 INSERT INTO Bus (ID_Bus, Marca, Tipo, Capacidad) VALUES
-(1, 'Mercedes', 'Autobús turístico', 40),
-(2, 'Volvo', 'Autobús de lujo', 50),
-(3, 'Scania', 'Autobús económico', 35);
+(1, 'Mercedes', 'AutobÃºs turÃ­stico', 40),
+(2, 'Volvo', 'AutobÃºs de lujo', 50),
+(3, 'Scania', 'AutobÃºs econÃ³mico', 35);
 
 -- Insertar datos en la tabla VIAJE
 INSERT INTO VIAJE (ID_Viaje, ID_Destino_Turistico, Fecha_Salida, Hora_Salida) VALUES
