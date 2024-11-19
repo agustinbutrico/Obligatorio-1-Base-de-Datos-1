@@ -61,7 +61,7 @@ CREATE TABLE Destino_Turistico (
 	primary key (ID_Destino_Turistico),
 	foreign key (ID_Terminal_Origen) references Terminal(ID_Terminal),
 	foreign key (ID_Terminal_Destino) references Terminal(ID_Terminal),
-	CONSTRAINT chk_origen_destino CHECK (ID_Terminal_Origen <> ID_Terminal_Destino) -- Restricción que chequea que el origen y destino sean distintos
+	CONSTRAINT chk_origen_destino CHECK (ID_Terminal_Origen <> ID_Terminal_Destino) -- RestricciÃ³n que chequea que el origen y destino sean distintos
 );
 
 CREATE TABLE TIENE (
