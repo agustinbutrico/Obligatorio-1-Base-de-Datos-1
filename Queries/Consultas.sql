@@ -2,17 +2,15 @@ USE Obligatorio_BD;
 
 /*
 
-SELECT * FROM Beneficio;
-SELECT * FROM SE_BENEFICIA_DE;
-SELECT * FROM Categoria_Turista;
-SELECT * FROM Turista;
-SELECT * FROM Pasaje;
-SELECT * FROM Asiento;
 SELECT * FROM Bus;
-SELECT * FROM VIAJE;
-SELECT * FROM Destino_Turistico;
-SELECT * FROM TIENE;
-SELECT * FROM Terminal;
+SELECT * FROM Asiento;
 SELECT * FROM Departamento;
+SELECT * FROM Turista;
+SELECT * FROM Turista_Beneficio;
+SELECT * FROM Turista_Mercosur;
+SELECT * FROM Turista_Telefono;
+SELECT * FROM Terminal;
+SELECT * FROM Viaje;
+SELECT * FROM Pasaje;
 
 */
